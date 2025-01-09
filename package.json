@@ -1,0 +1,32 @@
+{
+  "name": "test-flexy",
+  "version": "1.0.0",
+  "description": "test repo for assessment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Boby Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "@oslojs/crypto": "^1.0.1",
+    "@oslojs/encoding": "^1.1.0",
+    "arctic": "^2.3.2",
+    "@neondatabase/serverless": "^0.10.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "@types/nodemailer": "^6.4.17",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.3",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.1"
+  }
+}
