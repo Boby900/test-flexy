@@ -2,7 +2,7 @@ import { ipFailureTable, userTable } from "@/db/schema";
 import { and, eq, gte, lte } from "drizzle-orm";
 import { db } from "@/db/index";
 import { Response, Request, NextFunction } from "express";
-import { sendEmailAlert } from "@/routes/mailNodeMailer";
+import { sendEmailAlert } from "@/lib/mailNodeMailer";
 import {
   encodeBase32LowerCaseNoPadding,
   encodeHexLowerCase,
